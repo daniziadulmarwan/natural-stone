@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  height: 560px;
+}
+
+.brand {
+  font-family: "Rozha One", serif;
+}
+
+.nav-item {
+  color: #938071;
+}
