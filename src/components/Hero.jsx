@@ -10,7 +10,7 @@ function Hero() {
             The Leading <span className="text-[#AFA798]">Supplier</span> <br />{" "}
             of <span className="text-[#AFA798]">Stone</span> Product
           </h1>
-          <p className="w-[390px] mt-3 text-[#1B1C22] text-base font-normal">
+          <p className="w-full md:w-[390px] mt-3 text-[#1B1C22] text-base font-normal">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
             aliquid tempore deleniti modi consectetur rerum repellat quae esse
             quos omnis explicabo sapiente dolore.

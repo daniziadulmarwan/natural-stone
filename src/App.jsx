@@ -4,11 +4,20 @@ import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import { Route, Switch } from "react-router-dom";
+import DetailProduct from "./pages/DetailProduct";
 
 function App() {
   return (
     <Provider store={store}>
-      <LandingPage />
+      <Switch>
+        <Route path="/">
+          <LandingPage />
+        </Route>
+        <Route path="/detail">
+          <DetailProduct />
+        </Route>
+      </Switch>
     </Provider>
   );
 }

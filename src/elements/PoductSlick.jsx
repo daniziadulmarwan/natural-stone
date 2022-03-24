@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const PoductSlick = (props) => {
   return (
-    <div className="py-2 px-3 text-left">
+    <div className="py-2 px-0 md:px-3 text-left">
       <div className="rounded-lg overflow-hidden">
         <img src={props.data.img} alt={props.data.title} />
       </div>
