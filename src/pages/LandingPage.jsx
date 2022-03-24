@@ -8,6 +8,7 @@ import Service from "../components/Service";
 import UpButton from "../elements/UpButton";
 import AOS from "aos";
 import WaButton from "../elements/WaButton";
+import { useSelector } from "react-redux";
 
 function LandingPage() {
   AOS.init();
@@ -44,6 +45,10 @@ function LandingPage() {
   const toUpBtn = () => {
     toUpRef.current.scrollIntoView();
   };
+
+  const stateGlobal = useSelector((state) => state);
+
+  console.log(stateGlobal);
 
   return (
     <div className="relative mb-10 overflow-x-hidden" ref={toUpRef}>
